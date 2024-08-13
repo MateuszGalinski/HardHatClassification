@@ -1,5 +1,5 @@
 # Hardhat Detection Model
-This repository contains a Convolutional Neural Network (CNN) model built using TensorFlow and Keras, designed to classify images into two categories: "hardhat" and "nohardhat." The model is trained on a dataset of images and can be used to predict whether a person in an image is wearing a hardhat or not.
+This repository contains a Convolutional Neural Network (CNN) model built using TensorFlow and Keras, designed to classify images into two categories: "hardhat" and "nohardhat." The model is trained on a dataset of images and can be used to predict whether a person in an image is wearing a hard hat or not.
 
 ## Table of Contents
 Overview  
