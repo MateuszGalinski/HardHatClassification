@@ -33,17 +33,18 @@ Matplotlib
 
 # Structure 
 Ensure you have a dataset organized in the following directory structure:
-
-logs/
-classes/
-├── hardhat/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── ...
-└── nohardhat/
-    ├── image1.jpg
-    ├── image2.jpg
+```
+logs/  
+classes/  
+├── hardhat/  
+│   ├── image1.jpg  
+│   ├── image2.jpg  
+│   └── ...  
+└── nohardhat/  
+    ├── image1.jpg  
+    ├── image2.jpg  
     └── ...
+```
 Place the dataset in the classes directory.
 
 # Usage
