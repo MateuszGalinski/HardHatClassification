@@ -2,17 +2,17 @@
 This repository contains a Convolutional Neural Network (CNN) model built using TensorFlow and Keras, designed to classify images into two categories: "hardhat" and "nohardhat." The model is trained on a dataset of images and can be used to predict whether a person in an image is wearing a hardhat or not.
 
 ## Table of Contents
-Overview
-Requirements
-Setup
-Usage
-Model Architecture
-Training
-Evaluation
-Testing
-Results
-Contributing
-License
+Overview  
+Requirements  
+Setup  
+Usage  
+Model Architecture  
+Training  
+Evaluation  
+Testing  
+Results  
+Contributing  
+License  
 # Overview
 ## The code in this repository performs the following tasks:
 
@@ -23,13 +23,7 @@ Training: It trains the model on the dataset.
 Evaluation: It evaluates the model's performance on test data.
 Testing: It tests the model on a sample image to predict whether a hardhat is present.
 # Requirements
-To run this project, you need to have the following installed:
-
-Python 3.x
-TensorFlow
-OpenCV
-NumPy
-Matplotlib
+To run this project, you need to just install requrements.txt
 
 # Structure 
 Ensure you have a dataset organized in the following directory structure:
