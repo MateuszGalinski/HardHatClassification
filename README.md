@@ -16,12 +16,12 @@ License
 # Overview
 ## The code in this repository performs the following tasks:
 
-Data Preprocessing: It removes corrupt images from the dataset.
-Data Loading: It loads the images from the dataset and prepares them for training.
-Model Creation: It defines and compiles a CNN model.
-Training: It trains the model on the dataset.
-Evaluation: It evaluates the model's performance on test data.
-Testing: It tests the model on a sample image to predict whether a hardhat is present.
+Data Preprocessing: It removes corrupt images from the dataset.  
+Data Loading: It loads the images from the dataset and prepares them for training.  
+Model Creation: It defines and compiles a CNN model.  
+Training: It trains the model on the dataset.  
+Evaluation: It evaluates the model's performance on test data.  
+Testing: It tests the model on a sample image to predict whether a hardhat is present.  
 # Requirements
 To run this project, you need to just install requrements.txt
 
@@ -49,15 +49,15 @@ Load the dataset and prepare it for training.
 Train the CNN model.
 Evaluate the model's performance.
 Test the model on a sample image.
-Model Architecture
+# Model Architecture
 The model is a Sequential CNN with the following layers:
 
-Input Layer: Accepts images of shape (256, 256, 3).
-Convolutional Layers: 3 convolutional layers with ReLU activation and max pooling.
-Flatten Layer: Flattens the 2D matrices into vectors.
-Dense Layers: 2 fully connected layers, the last of which uses a sigmoid activation function for binary classification.
-Training
-The model is trained using the Adam optimizer and binary cross-entropy loss for 20 epochs. The training and validation losses and accuracies are plotted for performance analysis.
+Input Layer: Accepts images of shape (256, 256, 3).  
+Convolutional Layers: 3 convolutional layers with ReLU activation and max pooling.  
+Flatten Layer: Flattens the 2D matrices into vectors.  
+Dense Layers: 2 fully connected layers, the last of which uses a sigmoid activation function for binary classification.  
+# Training
+The model is trained using the Adam optimizer and binary cross-entropy loss for 20 epochs. The training and validation losses and accuracies are plotted for performance analysis. The dataset consists of google images
 
 # Evaluation
 The model is evaluated using precision, recall, and accuracy metrics on the test dataset.
