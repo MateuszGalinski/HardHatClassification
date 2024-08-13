@@ -83,7 +83,7 @@ else:
 The results of the evaluation will print the model's precision, recall, and accuracy. The model's performance will also be plotted using Matplotlib.
 
 # Known limitations
-This is a simple architecture that may not pickup specifically on hardhats as a feature
+This is a simple architecture that may not pickup specifically on hardhats as a feature and for practical applications a better dataset could be used
 
 # Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue for any bugs or suggestions.
